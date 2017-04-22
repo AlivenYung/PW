@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="Shortcut Icon" type="image/x-icon" href="img/t_icon.png"/>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/default.css" rel="stylesheet">
+	<title>AlivenYung</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" onclick="navbt(this)" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	        </div>
+	        <div id="navbar" class="collapse navbar-collapse">
+	          <ul class="nav navbar-nav">
+	            <li class="active"><a href="#about">關於我</a></li>
+	            <li><a target="_blank" href="fixittest.esy.es">Fixit</a></li>
+	            <li><a target="_blank" href="http://www.tims.ntu.edu.tw/">Tims</a></li>
+	            <li><a target="_blank" href="http://www.casts.ntu.edu.tw/">Casts</a></li>
+	            <li><a target="_blank" href="http://tsob.oemal.tw/">台灣生物力學學會</a></li>
+
+	          </ul>
+	        </div><!--/.nav-collapse -->
+	      </div>
+    	</nav>
+	</header>
+	<div id="aboutme">
+		<div class="container">
+			<div class="row">
+				<div id="head_img" class="col-xs-12 col-sm-4">
+					<img src="img/head_img.png">
+				</div>
+				<div class="col-xs-12 col-sm-2">
+				</div>
+				<div class="col-xs-12 col-sm-6" id="aboutme_text">
+					<h1>Aliven Yung <small>(楊善謙)</small></h1>
+					<h3>1997/11/29 男♐</h3>
+					<h3>四不分一丙</h3>
+					<h3>興趣: <small>看海釣魚 打籃球 看小說</small></h3>
+					<h3>專長: <small>網頁前後端設計</small></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="works">
+		<div class="container">
+			<div class="row">
+			<div class="col-xs-12 col-sm-6 works"><h3><a href="https://www.facebook.com/profile.php?id=100000795278160" target="_blank">Iphone 壞掉，不管您是4567，我們都能為您完美解決!</a></h3></div>
+			<div class="col-xs-12 col-sm-6 works"><h3><a href="https://www.facebook.com/profile.php?id=100000795278160" target="_blank">網頁前後端設計，想要做網頁，我們能為您解決!</a></h3></div>	
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<b><a href="https://www.facebook.com/profile.php?id=100000795278160">FB</a></b>,
+			<b>E-mail</b>: alivenyung@gmail.com
+		</div>
+	</footer>
+
+
+<script src="js/jquery-1.11.0.min.js"></script>	
+<script src="js/bootstrap.min.js"></script>	
+<script type="text/javascript">
+	function navbt(ts){
+		if($(ts).hasClass("active")){
+			$(ts).removeClass('active');
+		}else{
+			$(ts).addClass('active');
+		}
+	}
+</script>
+</body>
+</html>
